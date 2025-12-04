@@ -123,8 +123,8 @@ graph LR
     end
 
     subgraph ExternalServices
-        Stripe[Stripe (платежи)]
-        SendGrid[SendGrid (email)]
+        Stripe["Stripe (платежи)"]
+        SendGrid[SendGrid email]
     end
 
     FE --> Redux
