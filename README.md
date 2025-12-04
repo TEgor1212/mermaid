@@ -122,7 +122,7 @@ graph LR
         Mongo[MongoDB]
     end
 
-    subgraph ExternalServices[Внешние сервисы]
+    subgraph ExternalServices
         Stripe[Stripe (платежи)]
         SendGrid[SendGrid (email)]
     end
